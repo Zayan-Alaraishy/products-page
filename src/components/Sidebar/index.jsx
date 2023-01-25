@@ -21,6 +21,21 @@ const Categories = {
     name: "skincare",
     icon: "💆🏼",
   },
+  sunglasses: {
+    title: "Sunglasses",
+    name: "sunglasses",
+    icon: "🕶️",
+  },
+  womens_bags: {
+    title: "Bags",
+    name: "womens-bags",
+    icon: "👜",
+  },
+  womens_shoes: {
+    title: "Shoes",
+    name: "womens-shoes",
+    icon: "👠",
+  },
   womens_dresses: {
     title: "Dresses",
     name: "womens-dresses",
@@ -35,6 +50,11 @@ const Categories = {
     title: "Watches",
     name: "womens-watches",
     icon: "⌚",
+  },
+  furniture: {
+    title: "Furniture",
+    name: "furniture",
+    icon: "🚪",
   },
   womens_jewellery: {
     title: "Jewellery",
