@@ -51,11 +51,6 @@ const Categories = {
     name: "womens-watches",
     icon: "⌚",
   },
-  furniture: {
-    title: "Furniture",
-    name: "furniture",
-    icon: "🚪",
-  },
   womens_jewellery: {
     title: "Jewellery",
     name: "womens-jewellery",
