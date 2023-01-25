@@ -41,14 +41,14 @@ export default function Main() {
   };
 
   return (
-    <div className="h-screen flex flex-col p-7">
+    <div className="h-screen flex flex-col py-7 px-5">
       {loading ? (
         <h1>Loading...</h1>
       ) : (
         <>
-          <div className="lg:flex lg:items-center lg:gap-2 mb-4 ">
+          <div className="lg:flex lg:items-center lg:gap-2 mb-4">
             <select
-              className="bg-light-gray p-2 rounded  focus:outline-none"
+              className="bg-light-gray p-2 rounded  focus:outline-none mb-2 lg:mb-0"
               onChange={sort}
             >
               <option value="" hidden>
@@ -57,10 +57,10 @@ export default function Main() {
               <option value="price-asc">Price - Lowest to Highest</option>
               <option value="alpha-asc">Alphabet - A-Z</option>
             </select>
-            <h1 className="text-white bg-black rounded p-1.5">
+            <h1 className="text-white bg-black rounded p-1.5 mb-2 lg:mb-0">
               Number of products: {filterProducts?.length}
             </h1>
-            <h1 className="text-white bg-black rounded p-1.5">
+            <h1 className="text-white bg-black rounded p-1.5 mb-2 lg:mb-0">
               Total value of all: {totalValueOfDisplayedProducts}$
             </h1>
           </div>
@@ -71,7 +71,7 @@ export default function Main() {
             ))}
           </div>
           {totalProducts > productsPerPage && (
-            <div className="mt-auto">
+            <div className="mt-auto py-4">
               <Pagination
                 page={page}
                 totalProducts={totalProducts}
